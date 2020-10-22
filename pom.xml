@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.steed777</groupId>
+    <artifactId>websitetest</artifactId>
+    <version>1.0-SNAPSHOT</version>
+<dependencies>
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.7.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.qameta.atlas/atlas-core -->
+    <dependency>
+        <groupId>io.qameta.atlas</groupId>
+        <artifactId>atlas-core</artifactId>
+        <version>1.8.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.qameta.atlas/atlas-webdriver -->
+    <dependency>
+        <groupId>io.qameta.atlas</groupId>
+        <artifactId>atlas-webdriver</artifactId>
+        <version>1.8.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.qameta.atlas/atlas-appium -->
+    <dependency>
+        <groupId>io.qameta.atlas</groupId>
+        <artifactId>atlas-appium</artifactId>
+        <version>1.8.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.qameta.atlas/github -->
+    <dependency>
+        <groupId>io.qameta.atlas</groupId>
+        <artifactId>github</artifactId>
+        <version>1.8.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>4.2.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.matchers/nio-matchers -->
+    <dependency>
+        <groupId>ru.yandex.qatools.matchers</groupId>
+        <artifactId>nio-matchers</artifactId>
+        <version>1.4.1</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.awaitility/awaitility -->
+    <dependency>
+        <groupId>org.awaitility</groupId>
+        <artifactId>awaitility</artifactId>
+        <version>4.0.3</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.openqa.selenium/selenium-rc -->
+    <dependency>
+        <groupId>org.openqa.selenium</groupId>
+        <artifactId>selenium-rc</artifactId>
+        <version>1.0-20081010.060147</version>
+        <type>pom</type>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
+    <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>hamcrest-all</artifactId>
+        <version>1.3</version>
+        <scope>test</scope>
+    </dependency>
+
+</dependencies>
+<build>
+<plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+        </configuration>
+    </plugin>
+</plugins>
+</build>
+</project>
